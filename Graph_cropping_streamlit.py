@@ -126,8 +126,8 @@ def main(image, a_temp, b_temp, i_temp, j_temp):
     return plot_buffer, excel_buffer
 
 # UI
-st.title("Image Processing App")
-
+st.title("XY extractor from Graphs- App")
+st.text("˚🐝 please use graphs with plain background only for good accuracy")
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 if uploaded_file:
     # input_image = Image.open(uploaded_file).convert("RGB")
